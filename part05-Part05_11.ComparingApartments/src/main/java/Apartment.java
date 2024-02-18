@@ -18,7 +18,6 @@ public class Apartment {
         return true;
     }
 
-    // fix this to be int in the next coding session.
     public int priceDifference(Apartment compared) {
         return Math.abs((this.princePerSquare * this.squares) - (compared.princePerSquare * compared.squares));
     }
