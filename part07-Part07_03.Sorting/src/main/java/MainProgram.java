@@ -41,9 +41,6 @@ public class MainProgram {
     }
 
     public static void sort(int[] array) {
-        // for (int num : array) {
-        // System.out.println(num);
-        // }
         for (int i = 0; i < array.length; i++) {
             for (int num : array) {
                 System.out.println(num);
