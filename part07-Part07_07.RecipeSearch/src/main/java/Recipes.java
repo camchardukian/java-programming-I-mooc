@@ -35,7 +35,6 @@ public class Recipes {
                 this.recipes.add(recipe);
             }
         } catch (IOException e) {
-            System.out.println("failllllll");
             e.printStackTrace();
         }
     }
